@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="4" name="id.sparepart.bengkel.kelompokbengkel14.test.LoginTest" time="0.902" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Semester 5\IMPAL\kelompokbengkel14"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\BEGALP~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 7.3.1\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\Users\BegalPapua\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\BegalPapua"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="BegalPapua"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 7.3.1\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 7.3.1\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Skenario: Memasukan User Baru" name="Dengan Data user baru yang akan dimasukan tersedia dan tidak duplikat dengan data yang telah ada di sistem" time="0"/>
+  <testcase classname="Skenario: Memasukan User Baru" name="Ketika Memasukan data user dengan nama \&quot;badu\&quot;" time="0"/>
+  <testcase classname="Skenario: Memasukan User Baru" name="Maka respon \&quot;user sukses dimasukan\&quot;" time="0">
+    <failure message="expected:&lt;user sukses dimasukan&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;user sukses dimasukan&gt; but was:&lt;null&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon(LoginContext.java:39)
+	at ✽.Maka respon &quot;user sukses dimasukan&quot;(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:10)
+</failure>
+  </testcase>
+  <testcase classname="Skenario: Memasukan User Baru" name="Skenario: Memasukan User Baru" time="0">
+    <failure message="expected:&lt;user sukses dimasukan&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;user sukses dimasukan&gt; but was:&lt;null&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon(LoginContext.java:39)
+	at ✽.Maka respon &quot;user sukses dimasukan&quot;(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:10)
+</failure>
+  </testcase>
+  <testcase classname="Skenario: Memasukan User Baru" name="Dengan Data user baru yang akan dimasukan tersedia dan tidak duplikat dengan data yang telah ada di sistem" time="0"/>
+  <testcase classname="Skenario: Memasukan User Baru" name="Ketika Memasukan data user dengan nama \&quot;deni\&quot;" time="0"/>
+  <testcase classname="Skenario: Memasukan User Baru" name="Maka respon gagal dengan pesan \&quot;duplicate\&quot;" time="0">
+    <failure message="expected:&lt;duplicate&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;duplicate&gt; but was:&lt;null&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon_gagal_dengan_pesan(LoginContext.java:45)
+	at ✽.Maka respon gagal dengan pesan &quot;duplicate&quot;(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:16)
+</failure>
+  </testcase>
+  <testcase classname="Skenario: Memasukan User Baru" name="Skenario: Memasukan User Baru" time="0">
+    <failure message="expected:&lt;duplicate&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;duplicate&gt; but was:&lt;null&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon_gagal_dengan_pesan(LoginContext.java:45)
+	at ✽.Maka respon gagal dengan pesan &quot;duplicate&quot;(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:16)
+</failure>
+  </testcase>
+</testsuite>

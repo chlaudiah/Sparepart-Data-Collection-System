@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: id.sparepart.bengkel.kelompokbengkel14.test.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.902 sec <<< FAILURE!
+Maka respon \"user sukses dimasukan\"(Skenario: Memasukan User Baru)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<user sukses dimasukan> but was:<null>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon(LoginContext.java:39)
+	at ?.Maka respon "user sukses dimasukan"(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:10)
+Skenario: Memasukan User Baru  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<user sukses dimasukan> but was:<null>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon(LoginContext.java:39)
+	at ?.Maka respon "user sukses dimasukan"(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:10)
+Maka respon gagal dengan pesan \"duplicate\"(Skenario: Memasukan User Baru)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<duplicate> but was:<null>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon_gagal_dengan_pesan(LoginContext.java:45)
+	at ?.Maka respon gagal dengan pesan "duplicate"(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:16)
+Skenario: Memasukan User Baru  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<duplicate> but was:<null>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at id.sparepart.bengkel.kelompokbengkel14.test.LoginContext.respon_gagal_dengan_pesan(LoginContext.java:45)
+	at ?.Maka respon gagal dengan pesan "duplicate"(id/sparepart/bengkel/kelompokbengkel14/test/LoginTest.feature:16)
