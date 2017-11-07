@@ -1,16 +1,28 @@
 # language: id
 
-Fitur: Mengelola User
-	Mengelola data user
+Fitur: Melakukan Login
+	Melakukan Login Admin
 
 	@Normal
-	Skenario: Memasukan User Baru 
-		Dengan Data user baru yang akan dimasukan tersedia dan tidak duplikat dengan data yang telah ada di sistem
-		Ketika Memasukan data user dengan nama "badu"
-		Maka respon "user sukses dimasukan"
+	Skenario: Melakukan login admin
+		Dengan Data admin yang dimasukkan dan data admin tersedia dalam data yang telah ada di sistem
+		Ketika Memasukkan data admin dengan "username" dan "password" 
+		Maka respon sukses dengan pesan "login berhasil"
 
-        @Duplikat
-        Skenario: Memasukan User Baru 
-		Dengan Data user baru yang akan dimasukan tersedia dan tidak duplikat dengan data yang telah ada di sistem
-		Ketika Memasukan data user dengan nama "deni"
-		Maka respon gagal dengan pesan "duplicate"
+        @WrongUsername
+        Skenario: Melakukan login admin
+		Dengan Data admin yang dimasukkan dan username admin tidak tersedia dalam data yang telah ada di sistem
+		Ketika Memasukkan data admin dengan "username salah" dan "password" 
+		Maka respon gagal dengan pesan "username salah"
+        
+        @WrongPassword
+        Skenario: Melakukan login admin
+                Dengan Data admin yang dimasukkan dan password admin tidak tersedia dalam data yang telah ada di sistem
+                Ketika Memasukkan data admin dengan "username" dan "password salah"
+                Maka respon gagal dengan pesan "password salah"
+
+        @WrongUsernameandWrongPassword
+        Skenario: Melakukan login admin
+                Dengan data admin yang dimasukkan dan data admin tidak tersedia dalam data yang telah ada di sistem
+                Ketika Memasukkan data admin dengan "username salah" dan "password salah"
+                Maka respon gagal dengan pesan "username dan password salah"
