@@ -12,4 +12,11 @@ Fitur : Menerima Data pemesanan customer
                   Maka memasukkan "data pemesanan" ke dalam data pemesanan yang ada di sistem dan respon sukses dengan menampilkan "data pemesanan"
 
         @WrongIdBarang
+        Skenario: Memasukkan data pemesanan
+                  Dengan memasukkan data pemesanan dan data pemesanan tidak tersedia dalam data yang telah ada di sistem
+                  Ketika memasukkan "data customer" dan "id barang" sistem akan melakukan "cek stock" terhadap "id barang" sesuai dengan data barang yang ada di sistem
+                  Dan "id barang" tidak ditemukan pada data barang
+                  Maka respon gagal dengan pesan "Id barang tidak tersedia" dan "data pemesanan" tidak di masukkan ke dalam data pemesanan yang ada di sistem
+                  
+     
         
