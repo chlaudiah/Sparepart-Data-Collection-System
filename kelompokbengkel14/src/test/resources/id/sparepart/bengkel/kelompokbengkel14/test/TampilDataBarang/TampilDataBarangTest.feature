@@ -1,11 +1,13 @@
 # language: id
 
-Fitur : Menampilkan Data Barang
+Fitur: Menampilkan Data Barang
         Menampilkan Data Barang Admin
 
     @Normal
-    Skenario : Menampilkan Data Barang Admin
+    Skenario: Menampilkan Data Barang Admin
                 Dengan admin masuk ke menu yang ada di sistem 
-                ketika memilih "Data Barang"
-                maka respon sukses dengan menampilkan data barang
+                Ketika memilih "Data Barang"
+                Maka respon sukses dengan menampilkan data barang
+         
+
          
