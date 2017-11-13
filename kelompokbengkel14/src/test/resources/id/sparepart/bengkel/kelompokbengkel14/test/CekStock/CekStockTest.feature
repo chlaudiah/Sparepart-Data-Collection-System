@@ -14,4 +14,3 @@ Fitur: Melakukan Cek Stock Admin
                 Dengan admin menginputkan "id barang" dan dilakukan pengecekan "id barang" tersebut pada "daftar barang" di sistem 
                 Ketika "id barang" yang dicari tidak ada
                 Maka respon gagal dengan menampilkan pesan "Barang tidak ada"
-  
