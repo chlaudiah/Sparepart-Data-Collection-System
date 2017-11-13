@@ -9,5 +9,3 @@ Fitur: Menampilkan Data Barang
                 Ketika memilih "Data Barang"
                 Maka respon sukses dengan menampilkan data barang
          
-
-         
