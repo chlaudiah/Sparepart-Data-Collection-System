@@ -5,7 +5,7 @@ This programm built with the purpose for fulfill my final assignment of **Implem
 
 ## Introduction to The Program
 1. Programming Language : Java
-2. Tools : NetBeans
+2. Tools : NetBeans and SonarQube
 3. Based on GUI Implementation
 
 ## Team
